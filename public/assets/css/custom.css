@@ -13,6 +13,10 @@ File: Custom Css File
   --vz-primary-text-emphasis: #af4000;
 }
 
+:root, [data-bs-theme=light] {
+  --vz-primary-rgb: 255, 128, 0;
+}
+
 .card-profil {
   border-radius: 16px;
 }
@@ -42,6 +46,14 @@ File: Custom Css File
     border-color: #e3702e;
 }
 
+.nav-tabs-custom .nav-item .nav-link {
+    color: #e3702e;
+}
+
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: #c25c21;
+    font-weight: bold;
+}
 
 /* Phone */
 @media only screen and (max-width: 600px) {

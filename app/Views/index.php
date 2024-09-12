@@ -76,45 +76,7 @@
 
     <div class="tab-content pt-4 text-muted">
       <div class="tab-pane active" id="overview-tab" role="tabpanel">
-        <div class="row">
-          <div class="col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-5">Complete Your Profile</h5>
-                <div class="progress animated-progress custom-progress progress-label">
-                  <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                    <div class="label">30%</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-9">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-3">About</h5>
-                <p>Hi I'm Anna Adame, It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is European languages are members of the same family.</p>
-                <p>You always want to make sure that your fonts work well together and try to limit the number of fonts you use to three or less. Experiment and play around with the fonts that you already have in the software you’re working with reputable font websites. This may be the most commonly encountered tip I received from the designers I spoke with. They highly encourage that you use different fonts in one design, but do not over-exaggerate and go overboard.</p>
-                <div class="row">
-                  <div class="col-6 col-md-4">
-                    <div class="d-flex mt-4">
-                      <div class="flex-shrink-0 avatar-xs align-self-center me-3">
-                        <div class="avatar-title bg-light rounded-circle fs-16 text-primary">
-                          <i class="ri-user-2-fill"></i>
-                        </div>
-                      </div>
-                      <div class="flex-grow-1 overflow-hidden">
-                        <p class="mb-1">Designation :</p>
-                        <h6 class="text-truncate mb-0">Lead Designer / Developer</h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <?= $this->include('profil/overview')?>        
       </div>
       <div class="tab-pane" id="jabatan" role="tabpanel">
         <div class="row">
@@ -122,10 +84,10 @@
             <div class="card">
               <div class="card-body">
                 <div class="p-3 bg-warning-subtle">
-                    <div class="float-end ms-2">
-                        <button type="button" name="button" class="btn btn-sm btn-primary">Usul Perubahan</button>
-                    </div>
-                    <h6 class="text-danger">Jabatan</h6>
+                  <div class="float-end ms-2">
+                    <button type="button" name="button" class="btn btn-sm btn-primary">Usul Perubahan</button>
+                  </div>
+                  <h6 class="text-danger">Jabatan</h6>
                 </div>
                 <?= $this->include('profil/pekerjaan') ?>
               </div>
@@ -133,10 +95,10 @@
             <div class="card">
               <div class="card-body">
                 <div class="p-3 bg-warning-subtle">
-                    <div class="float-end ms-2">
-                        <button type="button" name="button" class="btn btn-sm btn-primary">Usul Perubahan</button>
-                    </div>
-                    <h6 class="text-danger">Pangkat</h6>
+                  <div class="float-end ms-2">
+                    <button type="button" name="button" class="btn btn-sm btn-primary">Usul Perubahan</button>
+                  </div>
+                  <h6 class="text-danger">Pangkat</h6>
                 </div>
                 <?= $this->include('profil/pekerjaan') ?>
               </div>
@@ -151,10 +113,10 @@
             <div class="card">
               <div class="card-body">
                 <div class="p-3 bg-warning-subtle">
-                    <div class="float-end ms-2">
-                        <h6 class="text-warning mb-0">Usul Perubahan</h6>
-                    </div>
-                    <h6 class="mb-0 text-danger">Pendidikan Formal</h6>
+                  <div class="float-end ms-2">
+                    <h6 class="text-warning mb-0">Usul Perubahan</h6>
+                  </div>
+                  <h6 class="mb-0 text-danger">Pendidikan Formal</h6>
                 </div>
                 <?= $this->include('profil/pekerjaan') ?>
               </div>
@@ -162,10 +124,10 @@
             <div class="card">
               <div class="card-body">
                 <div class="p-3 bg-warning-subtle">
-                    <div class="float-end ms-2">
-                        <h6 class="text-warning mb-0">Usul Perubahan</h6>
-                    </div>
-                    <h6 class="mb-0 text-danger">Pendidikan Pelatihan</h6>
+                  <div class="float-end ms-2">
+                    <h6 class="text-warning mb-0">Usul Perubahan</h6>
+                  </div>
+                  <h6 class="mb-0 text-danger">Pendidikan Pelatihan</h6>
                 </div>
                 <?= $this->include('profil/pekerjaan') ?>
               </div>
