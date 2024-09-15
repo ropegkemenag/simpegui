@@ -32,7 +32,7 @@
 <!-- [Head] end -->
 <!-- [Body] Start -->
 
-<body class="layout-modern" data-pc-preset="preset-6" data-pc-sidebar-theme="light" data-pc-sidebar-caption="false" data-pc-direction="ltr" data-pc-theme="light" data-pc-direction="ltr">
+<body data-pc-preset="preset-6" data-pc-sidebar-theme="light" data-pc-sidebar-caption="false" data-pc-direction="ltr" data-pc-theme="light" data-pc-direction="ltr">
   <!-- [ Pre-loader ] start -->
 <div class="loader-bg">
   <div class="loader-track">
@@ -162,13 +162,6 @@
 <!-- [ Sidebar Menu ] end -->
  <!-- [ Header Topbar ] start -->
 <header class="pc-header">
-  <div class="m-header">
-    <a href="../dashboard/index.html" class="b-brand text-primary">
-      <!-- ========   Change your logo from here   ============ -->
-      <img src="<?= base_url()?>assets2/images/simpeg.png" height="50px" alt="logo image" class="logo-lg">
-      <span class="badge bg-brand-color-2 rounded-pill ms-2 theme-version">v1.0</span>
-    </a>
-  </div>
   <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
 <div class="me-auto pc-mob-drp">
   <ul class="list-unstyled">

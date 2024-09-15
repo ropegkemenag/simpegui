@@ -13,3 +13,14 @@
 .pc-header .pc-head-link:hover > i {
   color: #140a0a;
 }
+
+.datatable-table,
+.table {
+  td,
+  th {
+    border-top: 1px solid $border-color;
+    border-bottom: none;
+    white-space: normal;
+    padding: 0.7rem 0.75rem;
+    vertical-align: middle;
+  }

@@ -2,6 +2,22 @@
 
 <?= $this->section('content') ?>
 <div class="pc-content">
+  <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../dashboard/index.html">Presensi</a></li>
+                </ul>
+              </div>
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h2 class="mb-0">Presensi</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="row">
         <!-- [ sample-page ] start -->
         <div class="col-sm-12">
@@ -15,8 +31,8 @@
                     aria-selected="true">
                     <span class="f-w-500"><i class="ph-duotone ph-user-circle m-r-10"></i>Informasi Pegawai</span>
                   </a>
-                  <a class="nav-link list-group-item list-group-item-action" id="user-set-profile-tab"
-                    data-bs-toggle="pill" href="#user-set-profile" role="tab" aria-controls="user-set-profile"
+                  <a class="nav-link list-group-item list-group-item-action" id="kehadiran-tab"
+                    data-bs-toggle="pill" href="#kehadiran" role="tab" aria-controls="user-set-profile"
                     aria-selected="true">
                     <span class="f-w-500"><i class="ph-duotone ph-user-circle m-r-10"></i>Kehadiran</span>
                   </a>
@@ -68,304 +84,79 @@
                   aria-labelledby="user-set-profile-tab">
                   <div class="card">
                     <div class="card-header">
-                      <h5>About me</h5>
-                    </div>
-                    <div class="card-body">
-                      <p class="mb-0">Hello, I’m Anshan Handgun Creative Graphic Designer & User Experience Designer
-                        based in Website, I create digital
-                        Products a more Beautiful and usable place. Morbid accusant ipsum. Nam nec tellus at.</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h5>Personal Details</h5>
+                      <h5>Informasi</h5>
                     </div>
                     <div class="card-body">
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item px-0 pt-0">
                           <div class="row">
                             <div class="col-md-6">
-                              <p class="mb-1 text-muted">Full Name</p>
-                              <p class="mb-0">Anshan Handgun</p>
+                              <p class="mb-1 text-muted">NIP</p>
+                              <p class="mb-0">199000000</p>
                             </div>
                             <div class="col-md-6">
-                              <p class="mb-1 text-muted">Father Name</p>
-                              <p class="mb-0">Mr. Deepen Handgun</p>
+                              <p class="mb-1 text-muted">Nama</p>
+                              <p class="mb-0">Asep Surasep</p>
                             </div>
                           </div>
                         </li>
                         <li class="list-group-item px-0">
                           <div class="row">
                             <div class="col-md-6">
-                              <p class="mb-1 text-muted">Phone</p>
-                              <p class="mb-0">(+1-876) 8654 239 581</p>
+                              <p class="mb-1 text-muted">Jabatan</p>
+                              <p class="mb-0">Analis Sumber Daya Manusia Ahli Muda</p>
                             </div>
                             <div class="col-md-6">
-                              <p class="mb-1 text-muted">Country</p>
-                              <p class="mb-0">New York</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item px-0">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Email</p>
-                              <p class="mb-0">anshan.dh81@gmail.com</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Zip Code</p>
-                              <p class="mb-0">956 754</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item px-0 pb-0">
-                          <p class="mb-1 text-muted">Address</p>
-                          <p class="mb-0">Street 110-B Kalians Bag, Dewan, M.P. New York</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h5>Education</h5>
-                    </div>
-                    <div class="card-body">
-                      <ul class="list-group list-group-flush acc-feeds-list">
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">Master Degree (Year)</p>
-                              <p class="mb-0">2014-2017</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Institute</p>
-                              <p class="mb-0">-</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">Bachelor (Year)</p>
-                              <p class="mb-0">2011-2013</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Institute</p>
-                              <p class="mb-0">Imperial College London</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">School (Year)</p>
-                              <p class="mb-0">2009-2011</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Institute</p>
-                              <p class="mb-0">School of London, England</p>
+                              <p class="mb-1 text-muted">Grade</p>
+                              <p class="mb-0">10</p>
                             </div>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h5>Employment</h5>
-                    </div>
-                    <div class="card-body">
-                      <ul class="list-group list-group-flush acc-feeds-list">
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">Senior</p>
-                              <p class="mb-0">Senior UI/UX designer (Year)</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Job Responsibility</p>
-                              <p class="mb-0">Perform task related to project manager with the 100+ team under my
-                                observation. Team management is key
-                                role in this company.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">Trainee cum Project Manager (Year)</p>
-                              <p class="mb-0">2017-2019</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Job Responsibility</p>
-                              <p class="mb-0">Team management is key role in this company.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="list-group-item p-0">
-                          <div class="row">
-                            <div class="col-md-4 feed-title">
-                              <p class="mb-1 text-muted">School (Year)</p>
-                              <p class="mb-0">2009-2011</p>
-                            </div>
-                            <div class="col-md-6">
-                              <p class="mb-1 text-muted">Institute</p>
-                              <p class="mb-0">School of London, England</p>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+
                 </div>
-                <div class="tab-pane fade" id="user-set-information" role="tabpanel"
+                <div class="tab-pane fade" id="kehadiran" role="tabpanel"
                   aria-labelledby="user-set-information-tab">
                   <div class="card">
                     <div class="card-header">
-                      <h5>Personal Information</h5>
+                      <h5>Data Kehadiran</h5>
                     </div>
                     <div class="card-body">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">First Name</label>
-                            <input type="text" class="form-control" value="Anshan">
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">Last Name</label>
-                            <input type="text" class="form-control" value="Handgun">
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">Country</label>
-                            <input type="text" class="form-control" value="New York">
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">Zip code</label>
-                            <input type="text" class="form-control" value="956754">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="mb-3">
-                            <label class="form-label">Bio</label>
-                            <textarea class="form-control">
-Hello, I’m Anshan Handgun Creative Graphic Designer & User Experience Designer based in Website, I create digital Products a more Beautiful and usable place. Morbid accusant ipsum. Nam nec tellus at.</textarea>
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="mb-0">
-                            <label class="form-label">Experience</label>
-                            <select class="form-control">
-                              <option>Startup</option>
-                              <option>2 year</option>
-                              <option>3 year</option>
-                              <option selected>4 year</option>
-                              <option>5 year</option>
-                            </select>
-                          </div>
-                        </div>
+                      <div class="table-responsive table-card">
+                        <table class="table table-bordered table-striped">
+                          <thead>
+                            <th>Bulan</th>
+                            <th>Jml Hari Bulan</th>
+                            <th>Jml Hari Masuk</th>
+                            <th>Telat Masuk</th>
+                            <th>Cepat Pulang</th>
+                            <th>Sekali Absen</th>
+                            <th>Tugas Belajar</th>
+                            <th>Cuti</th>
+                            <th>Dinas Luar</th>
+                            <th>Izin</th>
+                            <th>TK</th>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h5>Social Network</h5>
-                    </div>
-                    <div class="card-body">
-                      <div class="d-flex align-items-center mb-2">
-                        <div class="flex-grow-1 me-3">
-                          <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                              <div class="avtar avtar-xs btn-light-twitter">
-                                <i class="fab fa-twitter f-16"></i>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                              <h6 class="mb-0">Twitter</h6>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="flex-shrink-0">
-                          <button class="btn btn-link-primary">Connect</button>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center mb-2">
-                        <div class="flex-grow-1 me-3">
-                          <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                              <div class="avtar avtar-xs btn-light-facebook">
-                                <i class="fab fa-facebook-f f-16"></i>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                              <h6 class="mb-0">Facebook <small class="text-muted f-w-400">/Anshan Handgun</small></h6>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="flex-shrink-0">
-                          <button class="btn btn-link-danger">Remove</button>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center">
-                        <div class="flex-grow-1 me-3">
-                          <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                              <div class="avtar avtar-xs btn-light-linkedin">
-                                <i class="fab fa-linkedin-in f-16"></i>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                              <h6 class="mb-0">Linkedin</h6>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="flex-shrink-0">
-                          <button class="btn btn-link-primary">Connect</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h5>Contact Information</h5>
-                    </div>
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">Contact Phone</label>
-                            <input type="text" class="form-control" value="(+99) 9999 999 999">
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="mb-3">
-                            <label class="form-label">Email <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control" value="demo@sample.com">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="mb-3">
-                            <label class="form-label">Portfolio Url</label>
-                            <input type="text" class="form-control" value="https://demo.com">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="mb-0">
-                            <label class="form-label">Address</label>
-                            <textarea class="form-control">3379  Monroe Avenue, Fort Myers, Florida(33912)</textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-end btn-page">
-                    <div class="btn btn-outline-secondary">Cancel</div>
-                    <div class="btn btn-primary">Update Profile</div>
                   </div>
                 </div>
                 <div class="tab-pane fade" id="user-set-account" role="tabpanel" aria-labelledby="user-set-account-tab">
