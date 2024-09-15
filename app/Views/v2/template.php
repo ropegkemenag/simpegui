@@ -80,7 +80,7 @@
           </a>
         </li>
         <li class="pc-item">
-          <a href="<?= site_url('simpeg/pegawaibaru')?>" class="pc-link">
+          <a href="<?= site_url('v2/presensi')?>" class="pc-link">
             <span class="pc-micon">
               <i class="ph-duotone ph-database"></i>
             </span>
