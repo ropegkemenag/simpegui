@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\V2;
+namespace App\Controllers\v2;
 use App\Controllers\BaseController;
 
 class Siasn extends BaseController
