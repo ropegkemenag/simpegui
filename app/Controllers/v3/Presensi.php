@@ -3,16 +3,16 @@
 namespace App\Controllers\v3;
 use App\Controllers\BaseController;
 
-class Home extends BaseController
+class Presensi extends BaseController
 {
     public function index(): string
     {
-        return view('v3/index');
+        $this->kehadiran();
     }
 
-    public function personal(): string
+    public function kehadiran(): string
     {
-        return view('v3/personal');
+        return view('v3/presensi/kehadiran');
     }
 
     public function peremajaan(): string

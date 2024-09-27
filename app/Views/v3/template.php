@@ -19,8 +19,6 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="<?= base_url()?>assets3/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&ampdisplay=swap" rel="stylesheet">
-
     <!-- Icons -->
     <link rel="stylesheet" href="<?= base_url()?>assets3/vendor/fonts/fontawesome.css">
     <link rel="stylesheet" href="<?= base_url()?>assets3/vendor/fonts/tabler-icons.css">
@@ -39,10 +37,6 @@
 
     <link rel="stylesheet" href="<?= base_url()?>assets3/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
     <link rel="stylesheet" href="<?= base_url()?>assets3/vendor/libs/typeahead-js/typeahead.css">
-
-
-    <!-- Page CSS -->
-
 
     <!-- Helpers -->
     <script src="<?= base_url()?>assets3/vendor/js/helpers.js"></script>
@@ -144,7 +138,7 @@
       </ul>
     </li>
     <li class="menu-item">
-      <a href="<?= site_url('v3/home/layanan')?>" class="menu-link">
+      <a href="<?= site_url('v3/home/cuti')?>" class="menu-link">
         <i class="menu-icon tf-icons ti ti-components"></i>
         <div data-i18n="Cuti">Cuti</div>
       </a>
